@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildpage - Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="flex flex-col items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/random/1600x900?nature');">
+        <div class="glassmorphism p-10 text-center max-w-lg">
+            <h1 class="text-5xl font-bold mb-4 text-green-400 drop-shadow-lg">Welcome to the Wild</h1>
+            <p class="text-lg mb-6">Explore the untamed beauty of nature and adventure.</p>
+            <a href="#explore" class="px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-md hover:bg-green-600 transition">Explore Now</a>
+        </div>
+    </div>
+    
+    <section id="explore" class="py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold text-green-400 mb-8">Discover More</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glassmorphism p-6">
+                <img src="https://source.unsplash.com/random/300x200?forest" alt="Forest" class="rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mt-4">Mysterious Forests</h3>
+                <p class="mt-2">Step into a world of lush greenery and breathtaking wildlife.</p>
+            </div>
+            <div class="glassmorphism p-6">
+                <img src="https://source.unsplash.com/random/300x200?mountains" alt="Mountains" class="rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mt-4">Majestic Mountains</h3>
+                <p class="mt-2">Experience the grandeur of towering peaks and crisp mountain air.</p>
+            </div>
+            <div class="glassmorphism p-6">
+                <img src="https://source.unsplash.com/random/300x200?ocean" alt="Ocean" class="rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mt-4">Endless Oceans</h3>
+                <p class="mt-2">Feel the calm and power of the vast, deep blue seas.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
